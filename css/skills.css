@@ -1,0 +1,102 @@
+.skills {
+  flex-direction: column;
+  background-color: #E4EAF2;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stack {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 20px;
+  /* border: 1px solid white; */
+}
+
+.html {
+  background-image: url('../images/logo/html.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.css {
+  background-image: url('../images/logo/css.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.js {
+  background-image: url('../images/logo/javascript.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.react {
+  background-image: url('../images/logo/react.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.redux {
+  background-image: url('../images/logo/redux.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.sass {
+  background-image: url('../images/logo/sass.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bootstrap {
+  background-image: url('../images/logo/bootstrap.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.node {
+  background-image: url('../images/logo/node.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.java {
+  background-image: url('../images/logo/java.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.python {
+  background-image: url('../images/logo/python.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.mysql {
+  background-image: url('../images/logo/mysql.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.oracle {
+  background-image: url('../images/logo/oracle.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mongodb {
+  background-image: url('../images/logo/mongodb.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

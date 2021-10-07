@@ -1,0 +1,10 @@
+.home {
+  background-image: url('../images/home.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.titleText {
+  color: white;
+  font-size: 3rem;
+}
