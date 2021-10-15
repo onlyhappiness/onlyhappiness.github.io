@@ -1,3 +1,4 @@
 .about {
   /* background-color: #A68A97; */
+  flex-direction: column;
 }
