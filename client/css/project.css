@@ -1,0 +1,24 @@
+.project {
+  flex-direction: column;
+}
+
+/* .project-container {
+  display: flex;
+  width: 100%;
+  padding: 3rem;
+} */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 50rem;
+}
