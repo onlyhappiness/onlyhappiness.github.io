@@ -1,165 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/contact.css">
-  <link rel="stylesheet" href="./css/home.css">
-  <link rel="stylesheet" href="./css/project.css">
-  <link rel="stylesheet" href="./css/skills.css">
-  <link rel="stylesheet" href="./css/style.css"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- bootstrap -->
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" 
-  />
-  <!-- swiper -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
   <!-- swiper -->
-  <script 
-    src="https://unpkg.com/swiper@7/swiper-bundle.min.js">
-  </script>
-  <script src="./js/skicky.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/swiper.css">
+
   <script src="./js/swiper.js" defer></script>
+  <title>포트폴리오-박범진</title>
 </head>
+
 <body>
-  <header>
-    <ul class="nav">
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Project">Project</a></li>
-      <li><a href="#Contact">Contact</a></li>
-    </ul>
-  </header>
+  <div class="container py-5">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center mb-4 border-bottom p-3">
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Home</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#">About</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Skill</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Project</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-  <section class="home" id="Home">
-    <p class="titleText">
-      안녕하세요! <br>
-      Developer 박범진 입니다.
-    </p>
-    
-    <!-- <p class="titleText">
-      P O R T F O L I O
-    </p> -->
-  </section>
-
-  <!-- <section class="about" id="About">
-    <h1 class="mainTitle">
-      About
-    </h1>
-    <p>
-      개발하는 것이 좋아하여 다양하고 새로운 기술을 학습하고 익숙해지는 것을 즐기고 있습니다. 주로 웹 서비스를 공부했습니다. 때에 따라 다르지만, 직진하지 않고 돌아 가더라도 개발하는 것을 포기하지 않고 끝까지 합니다. 
-    </p> 
-    <p>
-      개발자로서 성장하는 계획을 끊임없이 생각하고 트렌드에 관심을 더하여 꾸준하게 코드를 업데이트하고 수정하는 커밋 메세지를 작성합니다.
-    </p>
-  </section> -->
-
-  <section class="skills" id="Skills">
-    <h1 class="mainTitle">
-      Skills
-    </h1>
-
-    <h1 class="subTitle">publishing</h1>
-    <div class="stack publishing">
-      <div class="logo html"></div>
-      <div class="logo css"></div>
-      <div class="logo js"></div>
+    <div class=" mb-5 bg-light rounded-3 text-center " id="Home">
+      <div class="container-fluid py-5 justify-content-center">
+        <h1 class="display-5 fw-bold text-white">안녕하세요! </h1>
+        <p class="fs-5 text-white">Developer 박범진입니다.</p>
+        <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
+      </div>
     </div>
 
-    <h1 class="subTitle">Front-End</h1>
-    <div class="stack front-end">      
-      <!-- Front-End -->
-      <div class="logo react"></div>
-      <div class="logo redux"></div>
-      <div class="logo sass"></div>
-      <div class="logo bootstrap"></div>
-    </div>
+    <main class="p-5 mb-5">
+      <h4 class="text-center">Language</h4>
+      <div class="row row-cols-1 row-cols-md-3 mb-4 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/java.jpg" class="card-img-top" alt="java" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/javascript.png" class="card-img-top" alt="javascript" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/python.png" class="card-img-top" alt="" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <h1 class="subTitle">Back-End</h1>
-    <div class="stack back-end">
-      <!-- Back-End -->
-      <div class="logo node"></div>
-      <div class="logo java"></div>
-      <div class="logo python"></div>
-      <div class="logo mysql"></div>
-      <div class="logo oracle"></div>
-      <div class="logo mongodb"></div>
-    </div>
-  </section>
-  
-  <section class="project" id="Project">
-    <h1 class="mainTitle">
-      Projects
-    </h1>
+      <h4 class="text-center">Front-End</h4>
+      <div class="row row-cols-1 row-cols-md-3 mb-4 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/react.png" class="card-img-top" alt="java" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/bootstrap.png" class="card-img-top" alt="javascript" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/sass.png" class="card-img-top" alt="javascript" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="text-center">Back-End</h4>
+      <div class="row row-cols-1 row-cols-md-3 mb-4 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/spring.png" class="card-img-top" alt="java" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/node.png" class="card-img-top" alt="javascript" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card">
+              <img src="./images/logo/express.png" class="card-img-top" alt="" style="height: 16rem;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <!-- 채팅 -->
         <div class="swiper-slide">
           <div class="card">
-            <img src="./images/chatting/Chatting-main.png" class="card-img-top" alt="Chatting">
+            <img src="./images/chatting/Chatting-main.png" class="card-img-top" alt="chatting">
             <div class="card-body">
-              <h5 class="card-title">Chatting</h5>
-              <p class="card-text">Chatting</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">채팅 웹</h5>
+              <p class="card-text">
+                일 대 일, 일 대 다수 대상으로 채팅하는 웹 프로젝트입니다.
+              <ul class="text-muted list-unstyled">
+                <li>AWS의 RDS를 이용한 서버 및 MySQL 데이터베이스를 구축</li>
+                <li>Passport를 이용한 인증 기능 구현</li>
+                <li>Bcrypt를 이용한 회원 정보 암호화</li>
+                <li>Node.js와 express를 사용하여 웹 서비스 및 API 서버 구축</li>
+                <li>Socket.io를 이용한 실시간 양방향 통신 구현</li>
+                <li>OpenWeather API를 이용하여 날씨 정보를 시각화
+                </li>
+              </ul>
+              </p>
+              <a href="https://github.com/onlyhappiness/Chatting" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
-        <!-- 밥줘 -->
         <div class="swiper-slide">
           <div class="card">
-            <img src="./images/밥줘/밥줘-랜딩.png" class="card-img-top" alt="밥줘">
-            <div class="card-body">
-              <h5 class="card-title">밥줘</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- movie -->
-        <div class="swiper-slide">
-          <div class="card">
-            <img src="./images/Movie/landing.png" class="card-img-top" alt="movie">
+            <img src="./images/Movie/landing.png" class="card-img-top" alt="moview">
             <div class="card-body">
               <h5 class="card-title">Moview!</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">
+                The Movie DB Api를 이용하여 인기있는 영화 소개하며 보고싶은 영화를 조회할 수 있는 웹 프로젝트입니다
+              <ul class="text-muted list-unstyled">
+                <li>React.js를 이용한 데이터 및 페이지 랜더링 구현</li>
+                <li>Redux를 사용한 컴포넌트의 상태 업데이트 관련 로직 관리</li>
+                <li>Node.js와 express를 사용한 웹 서비스 및 API 서버 구축</li>
+                <li>MongoDB를 이용한 회원 정보 관리</li>
+                <li>Bcrypt를 이용한 회원 정보 암호화</li>
+                <li>JWT 기반 회원인증 시스템 구현
+                </li>
+              </ul>
+              </p>
+              <a href="https://github.com/onlyhappiness/MERN-stack" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
-        <!-- 키키 -->
         <div class="swiper-slide">
           <div class="card">
-            <img src="./images/Kiki/intro.png" class="card-img-top" alt="키키">
+            <img src="./images/밥줘/rice-landing.png" class="card-img-top" alt="let-me-know-rice">
             <div class="card-body">
-              <h5 class="card-title">Kiki Delivery Service</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">밥 줘!(밥 먹을 곳을 알려줘!)</h5>
+              <p class="card-text">
+                카카오맵 API를 이용하여 근처 식당을 알려주는 웹 프로젝트입니다.
+              <ul class="text-muted list-unstyled">
+                <li>카카오 맵 API를 이용하여 지도 및 위치 서비스 구현</li>
+                <li>식당 위치 마커가 삭제되지 않는 버그 수정 중
+                </li>
+              </ul>
+              </p>
+              <a href="https://github.com/onlyhappiness/Let_Me_Know_Rice" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <img src="./images/Kiki/intro.png" class="card-img-top" alt="kiki">
+            <div class="card-body">
+              <h5 class="card-title">키키 배달 서비스!</h5>
+              <p class="card-text">
+                Python의 Pygame 라이브러리를 이용하여 만든 게임입니다.
+              <ul class="text-muted list-unstyled">
+                <li>방향키를 눌러(key-event) 캐릭터 이동 기능 구현</li>
+                <li>까마귀 충돌하면 게임오버 구현</li>
+                <li>별도의 설치 없이 웹으로 구현하기 위해 개발 중</li>
+              </ul>
+              </p>
+              <a href="https://github.com/onlyhappiness/Kiki-Delivery-Service" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
 
-  </section>
-  
-  <section class="contact" id="Contact">
-    Contact
-  </section>
+    <footer class="pt-4 my-md-5 pt-md-5 text-center">
+      <p class="border-bottom">Contact Me</p>
+      <p>
+        Email : onlyhappiness96@gmail.com <br>
+        Github : https://github.com/onlyhappiness <br>
+        Tel: (+82) 010-7121-7350
+      </p>
+    </footer>
+
+
+  </div>
 </body>
+
 </html>
