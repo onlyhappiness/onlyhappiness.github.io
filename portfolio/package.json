@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^4.19.3",
     "next": "12.1.4",
+    "next-plugin-antd-less": "^1.8.0",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },
