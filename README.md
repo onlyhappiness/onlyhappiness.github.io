@@ -18,3 +18,32 @@ gatby-starter-blog 뿐 아니라 gatsby는 생각보다 에러가 많았다.
 ---
 
 차라리 내가 template을 만들어 보는 게 어떨까 싶다..
+
+<br>
+<br>
+
+### UI 라이브러리
+
+---
+
+Ant-Design
+
+> https://ant.design/
+
+<br>
+
+사실 UI 라이브러리에 대해 많은 고민을 했다.
+
+<a href="https://emotion.sh/docs/introduction">Emotion</a>을 사용할 지, <a href="https://tailwindcss.com/">TailwindCSS</a>를 사용해야 할지..
+
+전부 다 하고 싶은 욕심이 있었지만, Ant-Design을 선택했다.
+
+선택한 이유는
+
+<br>
+
+1. 이전부터 디자인이 깔끔하다고 생각했다.
+
+2. 이전에는 문서가 전부 중국어로 되어 있어서 기피했지만 지금은 영어도 지원하고 있어서 안 할 이유는 없다고 판단했다.
+
+3. 다양한 프론트 개발하는 회사에서도 많이 사용되고 있기도 하여 겸사겸사 공부하면 좋다고 판단했다.
