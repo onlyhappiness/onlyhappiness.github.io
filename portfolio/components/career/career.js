@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './career.module.css';
 
 import Title from 'antd/lib/typography/Title';
 import { Content, Footer, Header } from 'antd/lib/layout/layout';
@@ -6,8 +7,8 @@ import { Content, Footer, Header } from 'antd/lib/layout/layout';
 function Career() {
   return (
     <>
-      <Content>
-        <Title level={2}>Career</Title>내 경력
+      <Content className={styles.container}>
+        <Title level={1}>Career</Title>내 경력
       </Content>
     </>
   );

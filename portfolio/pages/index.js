@@ -4,14 +4,16 @@ import Head from 'next/head';
 import 'antd/dist/antd.css';
 import styles from '../styles/Home.module.css';
 
-import { Layout } from 'antd';
+import { Layout, Divider } from 'antd';
 import Title from 'antd/lib/typography/Title';
 import { Content, Footer, Header } from 'antd/lib/layout/layout';
 
 import About from '../components/about/about';
-import Projects from '../components/projects/project';
+import Projects from '../components/projects/projects';
 import Career from '../components/career/career';
 import HeaderContent from '../components/header/header';
+import Skills from '../components/skills/skills';
+import Introduce from '../components/introduce/introduce';
 // const { Header, Content, Footer, Sider } = Layout;
 
 function index() {
@@ -28,11 +30,11 @@ function index() {
           <HeaderContent />
         </Header>
 
-        <Content className={[styles.content, styles.content1]}>
-          <Title level={2}>박범진</Title>
-          <Title level={3}>포트 폴리오</Title>
-
-          <Title level={5}>기록</Title>
+        <Content
+          className={styles.content}
+          // className={[styles.content, styles.content1]}
+        >
+          <Introduce />
         </Content>
 
         <Content className={styles.content}>
@@ -40,10 +42,7 @@ function index() {
         </Content>
 
         <Content className={styles.content}>
-          <Content>
-            <Title level={2}>Skills</Title>
-            기술스택
-          </Content>
+          <Skills />
         </Content>
 
         <Content className={styles.content}>

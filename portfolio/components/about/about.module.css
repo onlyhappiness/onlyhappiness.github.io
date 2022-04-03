@@ -1,0 +1,13 @@
+.container {
+  /* border: 1px solid slateblue; */
+  /* width: 100%; */
+}
+
+.cardContainer {
+  width: 100%;
+  padding: 2rem;
+}
+
+.colBox {
+  padding: 2rem;
+}

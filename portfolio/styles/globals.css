@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1.ant-typography:hover {
+  cursor: pointer;
+
+  background: linear-gradient(
+    90deg,
+    rgba(78, 84, 200, 1) 0%,
+    rgba(143, 148, 251, 1) 73%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

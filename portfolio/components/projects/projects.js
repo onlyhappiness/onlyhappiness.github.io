@@ -7,7 +7,7 @@ function Projects() {
   return (
     <>
       <Content>
-        <Title level={2}>Projects</Title>
+        <Title level={1}>Projects</Title>
         프로젝트들
       </Content>
     </>
