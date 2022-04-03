@@ -7,6 +7,11 @@ import styles from '../styles/Home.module.css';
 import { Layout } from 'antd';
 import Title from 'antd/lib/typography/Title';
 import { Content, Footer, Header } from 'antd/lib/layout/layout';
+
+import About from '../components/about/about';
+import Projects from '../components/projects/project';
+import Career from '../components/career/career';
+import HeaderContent from '../components/header/header';
 // const { Header, Content, Footer, Sider } = Layout;
 
 function index() {
@@ -19,7 +24,9 @@ function index() {
       </Head>
 
       <Layout className={styles.container}>
-        <Header className={styles.header}>Bread Portfolio</Header>
+        <Header className={styles.header}>
+          <HeaderContent />
+        </Header>
 
         <Content className={[styles.content, styles.content1]}>
           <Title level={2}>박범진</Title>
@@ -29,10 +36,7 @@ function index() {
         </Content>
 
         <Content className={styles.content}>
-          <Content>
-            <Title level={2}>About Me</Title>
-            이름, 생년월일, 주소지, 연락처, 이메일, 학력
-          </Content>
+          <About />
         </Content>
 
         <Content className={styles.content}>
@@ -43,16 +47,11 @@ function index() {
         </Content>
 
         <Content className={styles.content}>
-          <Content>
-            <Title level={2}>Projects</Title>
-            프로젝트들
-          </Content>
+          <Projects />
         </Content>
 
         <Content className={styles.content}>
-          <Content>
-            <Title level={2}>Career</Title>내 경력
-          </Content>
+          <Career />
         </Content>
 
         <Footer>Footer</Footer>
