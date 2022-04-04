@@ -8,13 +8,18 @@ import { Content, Footer, Header } from 'antd/lib/layout/layout';
 function Introduce() {
   return (
     <>
-      <Content className={styles.container}>
+      <div className={styles.container}>
         {/* <Title level={2}>박범진</Title> */}
+        <div>
+          <Title level={1} className={styles.title}>
+            PORTFOLIO
+          </Title>
+          <Divider />
+        </div>
 
-        <Title level={1}>포트 폴리오</Title>
-        <Divider />
-        <Title level={5}>기록</Title>
-      </Content>
+        <Title level={5}>FRONT-END DEVELOPER</Title>
+        <Title level={5}>PARK BUMJIN</Title>
+      </div>
     </>
   );
 }

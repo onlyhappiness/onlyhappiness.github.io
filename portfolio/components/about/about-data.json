@@ -1,0 +1,32 @@
+[
+  {
+    "id": "name",
+    "title": "이름",
+    "description": "박범진"
+  },
+  {
+    "id": "birth",
+    "title": "생년월일",
+    "description": "96.05.16"
+  },
+  {
+    "id": "address",
+    "title": "주소지",
+    "description": "서울특별시 관악구"
+  },
+  {
+    "id": "phone",
+    "title": "연락처",
+    "description": "연락처"
+  },
+  {
+    "id": "email",
+    "title": "이메일",
+    "description": "onlyhappiness96@gmail.com"
+  },
+  {
+    "id": "grade",
+    "title": "학력",
+    "description": "안양대학교"
+  }
+]

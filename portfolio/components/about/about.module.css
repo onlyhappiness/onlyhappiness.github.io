@@ -1,6 +1,7 @@
 .container {
   /* border: 1px solid slateblue; */
   /* width: 100%; */
+  /* padding: 24px; */
 }
 
 .cardContainer {
@@ -10,4 +11,8 @@
 
 .colBox {
   padding: 2rem;
+}
+
+.card {
+  height: 150px;
 }
